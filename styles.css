@@ -1,0 +1,147 @@
+
+/* 
+Fonts:
+
+font-family: 'Alfa Slab One', cursive; / <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+
+font-family: 'Lato', sans-serif; / <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+Color:
+
+gray: 9b9b9b
+dark blue: 003c61
+light blue: 1DB5FF
+orange: fa4616
+tan: ed5715 #C2A95E
+dark gray: 4A4A4A
+black: 000000
+light gray: DED9C2
+
+
+
+*/
+
+.grid-container {
+    display: inline-grid;
+  }
+
+#header {
+  background-color: #C2A95E;
+  padding: 20px;
+}
+
+.container {
+  width:1150px;
+  margin:0 auto;
+  position:relative;
+  text-align:center;
+}
+
+.jumbotron {
+  margin-bottom: 20px;
+  background-image: url(./images/justiceimg.jpg);
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headers {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fa4616;
+  }
+
+h3 a {
+    color: #fa4616;
+    
+
+  }
+
+p {
+  padding: 20px;
+}
+
+.pic1 {
+  height: 300px;
+  width: 450px;
+  padding: 20px;
+  float: right;
+}
+
+.pic2 {
+  height: 300px;
+  width: 450px;
+  margin: 20px 20px 20px 20px;
+  float: left;
+}
+
+.pic3 {
+  height: 260px;
+  width: 420px;
+  padding: 20px;
+  float: right;
+}
+
+.lead{
+  color: hsl(49, 30%, 92%);
+  font-family: 'Alfa Slab One', 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-shadow: 0 2px black;
+  text-align: left;
+}
+
+.display-4 {
+  color: #fa4616;
+  font-family: 'Alfa Slab One', 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  text-align: left;
+  
+}
+.img{
+  width: 30%;
+  float: left;
+  margin: 1.66;
+}
+
+#navbar {
+  background-color: #ddd9c2;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+.dark {
+    border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(250, 70, 20), rgba(0, 0, 0, 0));
+}
+
+.col-md-12 {
+  color: #003c61;
+}
+.nav-link {
+  color: #fa4616;
+  font-family: 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.nav-link:hover, .headers:hover, h3:hover, .col a:hover {
+  text-decoration: none;
+  color: hsl(13, 96%, 43%);
+}
+
+.description {
+  color: black;
+}
+
+@media all and (min-width: 991px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
