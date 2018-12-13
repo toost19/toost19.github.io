@@ -1,0 +1,112 @@
+div {
+    font-family: Roboto Condensed;
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+nav {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    margin-right: 20px;
+    border-bottom: 2px solid rgb(120, 100, 220);
+}
+
+body {
+    background-size: 100%
+} 
+
+.logo {
+    height: 80px;
+    width: 120px;
+}
+.display {
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+}
+
+img {
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin: 0 1.66% 1.66% 1.66%;
+    padding-bottom:20px;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+.calendar {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 20px 0 0 20px
+}
+
+h2 {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+h3 {
+    padding-left: 20px;
+}
+h4 {
+    margin-top: 40px;
+   padding-left: 20px;
+
+}
+.falldec {
+    height: 150px;
+    width: 100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+iframe {
+    width: 350px;
+    height: 350px; 
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(120, 100, 220);
+}
+footer {
+    font-size: 14px;
+    display: flex;
+    padding: 20px;
+    border-top: 2px solid rgb(120, 100, 220);
+    justify-content: baseline
+}
+
+
+
+
